@@ -19,4 +19,5 @@ include device/sony/castor_windy/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := SGP521,SGP541,SGP551,castor
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_castor_defconfig
+#TARGET_KERNEL_CONFIG := cm_shinano_castor_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/castor/prebuilt/boguskernel
