@@ -20,4 +20,4 @@ TARGET_OTA_ASSERT_DEVICE := SGP521,SGP541,SGP551,castor
 
 # Kernel properties
 #TARGET_KERNEL_CONFIG := cm_shinano_castor_defconfig
-TARGET_PREBUILT_KERNEL := device/sony/castor/prebuilt/boguskernel
+TARGET_PREBUILT_KERNEL := device/sony/castor/kernel
